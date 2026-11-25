@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aravinthan Krishnan Portfolio</title>
+  <meta name="description" content="Aravinthan Krishnan, Computer Science (Cybersecurity), Multimedia University. Network security, intrusion detection and explainable AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a href="#hero" class="brand" aria-label="Back to top"><span class="brand-mark">AK</span><span class="brand-name">Aravinthan Krishnan</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-small" href="assets/Aravinthan_Krishnan_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <canvas id="netCanvas" aria-hidden="true"></canvas>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="mono eyebrow"><span class="dot"></span>Open to entry-level cybersecurity roles</p>
+          <h1>Aravinthan Krishnan</h1>
+          <p class="lead">Just completed my Bachelor's in Cybersecurity at Multimedia University, ready to start my career as a <em>SOC analyst</em>, security analyst, incident responder or threat detection analyst.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">View projects</a>
+            <a class="btn btn-ghost" href="assets/Aravinthan_Krishnan_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+            <a class="btn btn-ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+        <figure class="hero-photo" id="heroPhoto">
+          <div class="photo-frame">
+            <img src="assets/profile.jpg" alt="Aravinthan Krishnan at Multimedia University, Cyberjaya" width="900" height="1200">
+            <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+            <span class="scanline" aria-hidden="true"></span>
+          </div>
+          <figcaption class="photo-tags">
+            <span class="ptag mono"><span class="pdot"></span>BCS Cybersecurity</span>
+            <span class="ptag mono">MMU Cyberjaya</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section-head">
+        <p class="mono kicker">01 / About</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm Aravinthan, a 24-year-old who has just completed a Bachelor's degree in Cybersecurity at Multimedia University, Cyberjaya. My path into security started with a Diploma in Information Technology, which gave me a broad base in computing before I chose to specialise in cybersecurity for my degree. Along the way, I've made the Dean's List twice.</p>
+          <p>During my degree, network security and machine learning were the subjects that interested me most. I brought the two together in my final year project, a research framework that detects port scans in network traffic data and uses explainable AI to show why each flow was flagged. I also presented research on the topic at CITIC2026, an international conference held at MMU.</p>
+          <p>Outside the classroom, I've completed ISC2's Certified in Cybersecurity training and joined a red teaming workshop to understand how attackers find weaknesses. I'm still growing, working towards more certifications and building my own security projects at home to keep learning hands-on.</p>
+          <p>Off the clock, you'll find me on a hiking trail, on the football pitch or badminton court, or deep in a PC game. Hiking and security have a lot in common: steady progress, and you don't quit halfway up.</p>
+        </div>
+
+        <aside class="facts" aria-label="Quick facts">
+          <p class="mono facts-title">Quick facts</p>
+          <dl>
+            <div><dt>Name</dt><dd>Aravinthan Krishnan</dd></div>
+            <div><dt>Degree</dt><dd>BCS (Hons.) Cybersecurity, MMU</dd></div>
+            <div><dt>CGPA</dt><dd><span class="num">3.63</span> · Dean's List ×2</dd></div>
+            <div><dt>Location</dt><dd>Cyberjaya, Malaysia</dd></div>
+            <div><dt>Availability</dt><dd>Immediately, full-time</dd></div>
+            <div><dt>Status</dt><dd class="status"><span class="pdot ok"></span>Open to SOC, security analyst &amp; IR roles</dd></div>
+          </dl>
+        </aside>
+      </div>
+
+      <div class="edu">
+        <h3 class="mono sub-label">Education</h3>
+        <div class="edu-grid">
+          <article class="edu-card">
+            <p class="mono edu-date">2024 to 2026</p>
+            <h4>Bachelor of Computer Science (Hons.), Cybersecurity</h4>
+            <p class="edu-org">Multimedia University, Cyberjaya</p>
+            <p class="edu-meta">CGPA 3.63 · Dean's List twice</p>
+          </article>
+          <article class="edu-card">
+            <p class="mono edu-date">2021 to 2023</p>
+            <h4>Diploma in Information Technology</h4>
+            <p class="edu-org">Multimedia University, Cyberjaya</p>
+            <p class="edu-meta">Final year project: Fashion Lover Paradise e-commerce web app</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="section-head">
+        <p class="mono kicker">02 / Projects</p>
+        <h2>What I've built</h2>
+      </div>
+
+      <article class="project featured">
+        <div class="badges">
+          <span class="badge done">Completed</span>
+          <span class="badge">Degree final year project</span>
+          <span class="badge">2025 to 2026</span>
+          <span class="badge">Supervisor: Dr. Palanichamy Naveen</span>
+        </div>
+        <div class="project-top">
+          <h3>AI-Powered Port Scan Detection System</h3>
+          <p class="subtitle">Feature optimization, stacked ensemble learning and explainable AI</p>
+          <p>A detection framework that classifies network flows from the CICIDS2017 dataset as benign or port scan. I compared two feature optimization methods, stacked a Random Forest base learner with an XGBoost meta-learner, and used SHAP to explain each prediction. A Streamlit dashboard lets users upload network traffic in CSV format, run either framework and see why each flow was classified as a port scan or benign.</p>
+        </div>
+
+        <div class="case-actions">
+          <button class="case-toggle" id="caseToggle" type="button" aria-expanded="false" aria-controls="caseBody">
+            <span class="case-toggle-text">View full case study</span><span class="case-toggle-icon" aria-hidden="true">+</span>
+          </button>
+          <a class="gh-btn" href="https://github.com/Aravinthan-Krishnan/AI_Powered_PortScan_Detection_with_XAI" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            View code on GitHub
+          </a>
+        </div>
+
+        <div class="case-body" id="caseBody" hidden>
+          <div class="case-inner">
+            <dl class="results">
+              <div><dt>Testing accuracy</dt><dd class="num">99.993%</dd></div>
+              <div><dt>Features used</dt><dd class="num">20 <small>of 77</small></dd></div>
+              <div><dt>F1-score</dt><dd class="num">1.000</dd></div>
+              <div><dt>AUC</dt><dd class="num">1.000</dd></div>
+            </dl>
+
+            <div class="tabs" role="tablist" aria-label="Project details">
+              <button class="tab active" role="tab" aria-selected="true" aria-controls="t-problem" id="tb-problem" type="button">Problem</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="t-approach" id="tb-approach" type="button">Approach</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="t-data" id="tb-data" type="button">Dataset</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="t-results" id="tb-results" type="button">Results</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="t-dash" id="tb-dash" type="button">Dashboard</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="t-next" id="tb-next" type="button">Next steps</button>
+              <button class="tab" role="tab" aria-selected="false" aria-controls="t-pub" id="tb-pub" type="button">Publication</button>
+            </div>
+
+            <div class="panel" role="tabpanel" id="t-problem" aria-labelledby="tb-problem">
+              <div class="panel-cols">
+                <div>
+                  <h4>The problem</h4>
+                  <ul class="ticks">
+                    <li><strong>Feature selection is an afterthought.</strong> Most port scan research chases accuracy and treats feature optimization as basic preprocessing, so it's unclear which methods actually help.</li>
+                    <li><strong>Black-box alerts.</strong> Models flag traffic as a port scan without showing why, so analysts can't verify the decision or trust the alert.</li>
+                    <li><strong>Overfitting.</strong> Models that score well on training data often fail on new, unseen traffic.</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Objectives</h4>
+                  <ol class="nums">
+                    <li>Implement and compare feature optimization techniques for port scan detection.</li>
+                    <li>Make detection decisions understandable with explainable AI (XAI).</li>
+                    <li>Check for overfitting by testing the models on unseen data.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel" role="tabpanel" id="t-approach" aria-labelledby="tb-approach" hidden>
+              <ol class="pipeline" aria-label="Detection pipeline">
+                <li><span class="mono step">01</span><strong>Network traffic</strong><span>CICIDS2017 PortScan flows, 77 features</span></li>
+                <li><span class="mono step">02</span><strong>Feature selection</strong><span>RFE (20 features) vs Moth-Flame Optimization (10)</span></li>
+                <li><span class="mono step">03</span><strong>Stacked ensemble</strong><span>Random Forest base, XGBoost meta-learner</span></li>
+                <li><span class="mono step">04</span><strong>Explainability</strong><span>SHAP summary and waterfall plots</span></li>
+                <li><span class="mono step">05</span><strong>Dashboard</strong><span>Streamlit: upload, detect, explain</span></li>
+              </ol>
+              <p class="panel-note">Standalone Random Forest and XGBoost models trained on all 77 features were used as baselines. Each proposed framework selects features first, trains a Random Forest on them, then feeds its class probabilities together with the selected features into an XGBoost meta-learner.</p>
+            </div>
+
+            <div class="panel" role="tabpanel" id="t-data" aria-labelledby="tb-data" hidden>
+              <dl class="kv">
+                <div><dt>Dataset</dt><dd>CICIDS2017, Friday working hours afternoon PortScan capture</dd></div>
+                <div><dt>Classes</dt><dd>BENIGN and PortScan network flows</dd></div>
+                <div><dt>Features</dt><dd>77 network flow features after preprocessing</dd></div>
+                <div><dt>Preparation</dt><dd>Cleaning, train and test split, StandardScaler applied without leaking test data</dd></div>
+                <div><dt>Scope</dt><dd>Offline evaluation of performance and overfitting, not real-time deployment</dd></div>
+              </dl>
+            </div>
+
+            <div class="panel" role="tabpanel" id="t-results" aria-labelledby="tb-results" hidden>
+              <div class="table-wrap">
+                <table class="cmp">
+                  <thead><tr><th>Model</th><th>Features</th><th>Testing acc.</th><th>Training acc.</th><th>AUC</th><th>Time (s)</th></tr></thead>
+                  <tbody>
+                    <tr><td>Random Forest</td><td>77</td><td>99.9913%</td><td>100.0000%</td><td>1.0000</td><td>4.55</td></tr>
+                    <tr><td>XGBoost</td><td>77</td><td>99.9965%</td><td>100.0000%</td><td>1.0000</td><td>1.62</td></tr>
+                    <tr class="best"><td>RFE-RF-XGBoost <span class="badge done">Chosen</span></td><td>20</td><td>99.9930%</td><td>99.9984%</td><td>1.0000</td><td>696.63</td></tr>
+                    <tr><td>MFO-RF-XGBoost</td><td>10</td><td>99.9843%</td><td>99.9972%</td><td>0.9999</td><td>233.61</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <ul class="ticks">
+                <li>RFE gave the best balance: 74% fewer features with no meaningful loss in accuracy.</li>
+                <li>MFO cut features even further to 10 and ran faster, with a small drop in accuracy.</li>
+                <li>The gap between training and testing accuracy stayed under 0.013% for every model, so overfitting was minimal.</li>
+              </ul>
+            </div>
+
+            <div class="panel" role="tabpanel" id="t-dash" aria-labelledby="tb-dash" hidden>
+              <div class="shots">
+                <button class="shot" type="button" data-cert="fyp" data-index="0">
+                  <img src="assets/fyp/dashboard-upload.jpg" alt="Dashboard home page with dataset upload">
+                  <span class="mono">Upload &amp; validate traffic</span>
+                </button>
+                <button class="shot" type="button" data-cert="fyp" data-index="1">
+                  <img src="assets/fyp/dashboard-results.jpg" alt="Detection summary and prediction results">
+                  <span class="mono">Detection results</span>
+                </button>
+                <button class="shot" type="button" data-cert="fyp" data-index="2">
+                  <img src="assets/fyp/dashboard-shap.jpg" alt="SHAP summary and waterfall plots">
+                  <span class="mono">SHAP explanations</span>
+                </button>
+              </div>
+              <p class="panel-note">Upload a CICIDS2017-format CSV, pick the RFE or MFO framework, and the dashboard validates the data, labels every flow, summarises the attack percentage and shows SHAP plots explaining individual predictions.</p>
+            </div>
+
+            <div class="panel" role="tabpanel" id="t-next" aria-labelledby="tb-next" hidden>
+              <ul class="ticks">
+                <li>Test the framework on more, and more varied, intrusion detection datasets.</li>
+                <li>Extend it from port scans to multi-class detection of other attack types.</li>
+                <li>Try other feature optimization, ensemble and explainability methods.</li>
+                <li>Connect the dashboard to live network traffic for real-time monitoring.</li>
+              </ul>
+            </div>
+
+            <div class="panel" role="tabpanel" id="t-pub" aria-labelledby="tb-pub" hidden>
+              <div class="paper-meta mono"><span>CITIC2026</span><span>5 to 7 May 2026</span><span>Multimedia University</span></div>
+              <h4 class="pub-title">Explainable AI for Port Scan Detection: Literature Review</h4>
+              <p class="panel-note">Presented at the 6th International Conference on Computer, Information Technology &amp; Intelligent Computing (CITIC2026). The paper reviews how explainable AI can make machine learning based port scan detection transparent enough for analysts to trust.</p>
+              <button class="link-arrow" type="button" data-cert="citic">View presentation certificate</button>
+            </div>
+          </div>
+        </div>
+
+        <ul class="chips small"><li>Python</li><li>scikit-learn</li><li>XGBoost</li><li>SHAP</li><li>Streamlit</li><li>CICIDS2017</li></ul>
+      </article>
+
+      <div class="project-grid two">
+        <article class="project">
+          <div class="badges"><span class="badge done">Completed</span><span class="badge">2023</span></div>
+          <p class="mono tag">Diploma final year project</p>
+          <h3>Fashion Lover Paradise</h3>
+          <p>A full-stack e-commerce web application with user authentication and product management, using CRUD operations backed by a MySQL database.</p>
+          <ul class="chips small"><li>PHP</li><li>MySQL</li><li>HTML</li><li>CSS</li></ul>
+        </article>
+
+        <article class="project">
+          <div class="badges"><span class="badge progress">In progress</span><span class="badge">2026</span></div>
+          <p class="mono tag">Business website</p>
+          <h3>Envogreen Trading</h3>
+          <p>A clean single-page website for a recycling and waste collection business, showing what they collect and how customers can reach them by WhatsApp, phone or email.</p>
+          <ul class="chips small"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </article>
+
+
+        <!-- Hidden until the first home project is ready. Remove the comment markers to show it again.
+        <article class="project">
+          <div class="badges"><span class="badge soon">Coming soon</span></div>
+          <p class="mono tag">Personal projects</p>
+          <h3>Home security projects</h3>
+          <p>Hands-on projects I'm building at home to practise networking and security skills alongside my CCNA studies. Write-ups will be added here as each one is finished.</p>
+          <ul class="chips small"><li>Networking</li><li>Security</li></ul>
+        </article>
+        -->
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="section-head">
+        <p class="mono kicker">03 / Skills</p>
+        <h2>Skills and tools</h2>
+      </div>
+
+      <h3 class="mono sub-label">Skills</h3>
+      <div class="skill-grid three">
+        <div class="skill-card">
+          <h3 class="mono">Security</h3>
+          <ul class="chips"><li>Network security</li><li>Intrusion detection</li><li>Endpoint security</li><li>OSINT</li><li>Red teaming basics</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">Machine learning</h3>
+          <ul class="chips"><li>Feature selection (RFE, MFO)</li><li>Ensemble learning</li><li>Explainable AI</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">IT support</h3>
+          <ul class="chips"><li>Hardware troubleshooting</li><li>OS installation &amp; setup</li></ul>
+        </div>
+      </div>
+
+      <h3 class="mono sub-label tools-label">Tools &amp; languages</h3>
+      <div class="skill-grid four">
+        <div class="skill-card">
+          <h3 class="mono">Languages</h3>
+          <ul class="chips"><li>Python</li><li>C++</li><li>PHP</li><li>JavaScript</li><li>HTML &amp; CSS</li><li>SQL</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">Security tools</h3>
+          <ul class="chips"><li>Kali Linux</li><li>Xcitium</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">ML libraries</h3>
+          <ul class="chips"><li>scikit-learn</li><li>XGBoost</li><li>SHAP</li><li>Streamlit</li></ul>
+        </div>
+        <div class="skill-card">
+          <h3 class="mono">Networking &amp; platforms</h3>
+          <ul class="chips"><li>Cisco Packet Tracer</li><li>VMware</li><li>VirtualBox</li><li>MySQL</li><li>XAMPP</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="section-head">
+        <p class="mono kicker">04 / Experience</p>
+        <h2>Where I've worked</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="t-item">
+          <p class="mono t-date">Jul 2026 to Oct 2026</p>
+          <div>
+            <h3>Product Engineer &amp; Technical Support Intern</h3>
+            <p class="t-org">Microdium Distribution Sdn Bhd</p>
+            <p class="t-desc">Supported the product team for Xcitium, an endpoint security platform, and MailStore Server, working with clients and partners on how the products fit their needs.</p>
+            <ul>
+              <li>Learned the Xcitium platform end to end, including device management, patch management, firewall, antivirus and reporting.</li>
+              <li>Supported product presentations, portal demos and client meetings.</li>
+              <li>Helped prepare responses to technical, compliance and tender requirements.</li>
+              <li>Represented the company at the PBT ICT Summit.</li>
+            </ul>
+            <ul class="chips small"><li>Xcitium</li><li>Endpoint security</li><li>MailStore Server</li><li>Client demos</li></ul>
+          </div>
+        </article>
+
+        <article class="t-item">
+          <p class="mono t-date">Aug 2023 to Oct 2023</p>
+          <div>
+            <h3>IT Technician Intern</h3>
+            <p class="t-org">Dr Computer Garage</p>
+            <p class="t-desc">Hands-on IT support at a computer repair shop, working directly with customers on their devices.</p>
+            <ul>
+              <li>Diagnosed and fixed hardware and software issues.</li>
+              <li>Installed and configured operating systems, drivers and applications.</li>
+              <li>Assembled, tested and upgraded computer components.</li>
+            </ul>
+            <ul class="chips small"><li>Troubleshooting</li><li>Windows</li><li>Hardware</li><li>Customer support</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATES ============ -->
+    <section class="section" id="certificates">
+      <div class="section-head">
+        <p class="mono kicker">05 / Certificates</p>
+        <h2>Earned and planned</h2>
+        <p class="section-sub">Click any card to view the certificate.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter certificates">
+        <button class="filter active" data-filter="all" type="button">All</button>
+        <button class="filter" data-filter="security" type="button">Security training</button>
+        <button class="filter" data-filter="academic" type="button">Academic</button>
+        <button class="filter" data-filter="event" type="button">Events</button>
+      </div>
+
+      <div class="cert-grid" id="certGrid">
+        <button class="cert wide" data-cat="security" data-cert="isc2" type="button">
+          <img src="assets/certs/isc2-cc-d1.jpg" alt="">
+          <span class="cert-body">
+            <span class="mono cert-issuer">ISC2 · Earned</span>
+            <strong>Certified in Cybersecurity (CC) training, all 5 domains</strong>
+            <span class="cert-detail">Security Principles · Incident Response, BC &amp; DR · Access Control · Network Security · Security Operations</span>
+            <span class="mono cert-date">Apr to Jul 2025</span>
+          </span>
+        </button>
+
+        <button class="cert" data-cat="academic" data-cert="citic" type="button">
+          <img src="assets/certs/citic2026.jpg" alt="">
+          <span class="cert-body">
+            <span class="mono cert-issuer">CITIC2026 · Earned</span>
+            <strong>Certificate of Presentation</strong>
+            <span class="mono cert-date">May 2026</span>
+          </span>
+        </button>
+
+        <button class="cert" data-cat="security" data-cert="redteam" type="button">
+          <img src="assets/certs/red-teaming.jpg" alt="">
+          <span class="cert-body">
+            <span class="mono cert-issuer">0day Academy · Earned</span>
+            <strong>Red Teaming Level 0: How Hackers Find Bugs</strong>
+            <span class="mono cert-date">Jul 2026</span>
+          </span>
+        </button>
+
+        <button class="cert" data-cat="event" data-cert="codenection" type="button">
+          <img src="assets/certs/codenection.jpg" alt="">
+          <span class="cert-body">
+            <span class="mono cert-issuer">MMU IT Society · Earned</span>
+            <strong>CodeNection 2025, pre-event workshop</strong>
+            <span class="mono cert-date">2025</span>
+          </span>
+        </button>
+
+        <!-- Dean's List: when you have photos, save them as assets/certs/deans-list-1.jpg and deans-list-2.jpg,
+             then remove the comment markers around the card below.
+        <button class="cert" data-cat="academic" data-cert="deans" type="button">
+          <img src="assets/certs/deans-list-1.jpg" alt="">
+          <span class="cert-body">
+            <span class="mono cert-issuer">Multimedia University · Earned</span>
+            <strong>Dean's List, awarded twice</strong>
+            <span class="mono cert-date">Faculty of Computing &amp; Informatics</span>
+          </span>
+        </button>
+        -->
+      </div>
+
+      <div class="roadmap">
+        <h3 class="mono sub-label">Roadmap</h3>
+        <div class="road-item">
+          <span class="badge progress">Planned</span>
+          <div>
+            <strong>Cisco Certified Network Associate (CCNA)</strong>
+            <span class="mono cert-date">Cisco · Networking fundamentals, routing, switching and network security</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="section-head">
+        <p class="mono kicker">06 / Contact</p>
+        <h2>Let's talk</h2>
+        <p class="section-sub">I'm available for entry-level roles such as SOC analyst, security analyst, incident responder or threat detection analyst. The quickest way to reach me is email.</p>
+      </div>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <span class="mono label">Email</span>
+          <a href="mailto:aravinkrish8@gmail.com" class="contact-value">aravinkrish8@gmail.com</a>
+          <button class="copy-btn" type="button" data-copy="aravinkrish8@gmail.com">Copy email</button>
+        </div>
+        <div class="contact-card">
+          <span class="mono label">GitHub</span>
+          <a href="https://github.com/Aravinthan-Krishnan" target="_blank" rel="noopener" class="contact-value">Aravinthan-Krishnan</a>
+          <a class="copy-btn" href="https://github.com/Aravinthan-Krishnan" target="_blank" rel="noopener">Open GitHub</a>
+        </div>
+        <div class="contact-card">
+          <span class="mono label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/aravinthan-krishnan" target="_blank" rel="noopener" class="contact-value">in/aravinthan-krishnan</a>
+          <a class="copy-btn" href="https://www.linkedin.com/in/aravinthan-krishnan" target="_blank" rel="noopener">Open profile</a>
+        </div>
+        <div class="contact-card">
+          <span class="mono label">Resume</span>
+          <span class="contact-value">PDF, 1 page</span>
+          <a class="copy-btn" href="assets/Aravinthan_Krishnan_Resume.pdf" target="_blank" rel="noopener">Open resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="mono">© 2026 Aravinthan Krishnan · Cyberjaya, Malaysia</p>
+    <a href="#hero" class="mono">Back to top ↑</a>
+  </footer>
+
+  <!-- Certificate viewer -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lbTitle" hidden>
+    <div class="lb-panel">
+      <div class="lb-head">
+        <p id="lbTitle" class="lb-title"></p>
+        <button class="lb-close" id="lbClose" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="lb-img-wrap"><img id="lbImg" src="" alt=""></div>
+      <div class="lb-foot">
+        <button class="lb-nav" id="lbPrev" type="button" aria-label="Previous">←</button>
+        <span class="mono" id="lbCount"></span>
+        <button class="lb-nav" id="lbNext" type="button" aria-label="Next">→</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
