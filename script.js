@@ -31,6 +31,24 @@
   }, { rootMargin: "-45% 0px -50% 0px" });
   document.querySelectorAll("main section[id]").forEach(s => spy.observe(s));
 
+
+  /* ---------- In-page links: scroll smoothly, keep the address clean (no #hero, #about…) ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener("click", e => {
+      const id = a.getAttribute("href").slice(1);
+      const target = id ? document.getElementById(id) : null;
+      if (!target) return;
+      e.preventDefault();
+      if (id === "hero" || id === "top") window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+      else target.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+      try { history.replaceState(null, "", location.pathname + location.search); } catch (_) {}
+    });
+  });
+  // If someone opens an old link ending in #something, tidy the address after jumping there
+  if (location.hash) {
+    try { setTimeout(() => history.replaceState(null, "", location.pathname + location.search), 300); } catch (_) {}
+  }
+
   /* ---------- Photo: gentle 3D tilt following the mouse ---------- */
   const photo = document.getElementById("heroPhoto");
   if (photo && !reduceMotion && window.matchMedia("(hover: hover)").matches) {
