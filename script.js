@@ -140,8 +140,8 @@
       { src: "assets/fyp/dashboard-shap.jpg", title: "Dashboard: SHAP explanations" }
     ],
     deans: [
-      { src: "assets/certs/deans-list-1.jpg", title: "Dean's List" },
-      { src: "assets/certs/deans-list-2.jpg", title: "Dean's List" }
+      { src: "assets/certs/deans-list-1.jpg", title: "Dean's List, March/April 2025 trimester" },
+      { src: "assets/certs/deans-list-2.jpg", title: "Dean's List, October/November 2025 trimester" }
     ]
   };
 
